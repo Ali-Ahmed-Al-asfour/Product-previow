@@ -1,0 +1,78 @@
+/* footer */
+body, .header{
+    margin: 0;
+    padding:0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: rgb(26, 40, 31);
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+
+
+}
+.ali{
+    margin-left: 10px;
+}
+.buttons{
+    margin-right: 10px;
+
+}
+.imagediv{
+    padding: 20px;
+}
+/* content styling */
+.one{
+    background-color: rgb(26, 40, 31);
+    display: flex;
+    
+}
+.textbox{
+    width: 400px;
+    margin-left: 20px;
+    flex: 1;
+}
+.imagediv{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+/* content 2 */
+.two{
+    background-color: rgb(99, 82, 85);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.projtitle{
+    display: flex;
+    justify-content: center;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+}
+.three{
+    background-color: rgb(206, 123, 145);
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.testimonial{
+    font-size: 30px;
+}
+.footer{
+    background-color: #C0E8F9;
+    color: #C0E8F9;
+}
